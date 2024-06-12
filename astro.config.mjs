@@ -24,7 +24,7 @@ const oklchToHex = (str) => {
 // https://astro.build/config
 export default defineConfig({
   site: "https://ansetechnoapp.github.io/blocAstroJs2/",
-  base: "./blocAstroJs2/",
+  // base: "./blocAstroJs2/",
   integrations: [
     tailwind(),
     swup({
